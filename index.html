@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <div class="container">
+                <div class="form">
+                    <h2>Masukkan Kata / Kalimat</h2>
+                    <form>
+                        <div class="input-box">
+                            <input type="text" id="input1" class="input1" placeholder="Masukkan Sesuatu . . ."><br>
+                            <input type="radio" id="task1" name="taskBaru" value="taskbaru1">
+                                    <label for="task1">Task 1</label><br>
+                            <input type="radio" id="task2" name="taskBaru" value="taskbaru2">
+                                    <label for="task2">Task 2</label><br>
+                            <input type="radio" id="task3" name="taskBaru" value="taskbaru3">
+                                    <label for="task3">Task 3</label><br>
+                            <input type="radio" id="task4" name="taskBaru" value="taskbaru4">
+                                    <label for="task4">Task 4</label><br>
+                            <input type="button" id="button1" class="input-submit" value="Submit" onclick="button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+                    <h2>Hasil Kata fibonacci: </h2>
+                    <p  id="hasilKata1"></p>
+                    <h2>Hasil Angka Ganjil: </h2>
+                    <p  id="hasilKata2"></p>
+                    <h2>Hasil Angka Genap: </h2>
+                    <p  id="hasilKata3"></p>
+                    <h2>Hasil Angka Huruf: </h2>
+                    <p  id="hasilKata4"></p>
+        </div>
+    </section>
+
+
+    <!-- Main JS -->
+    <script src="./main.js"></script>
+
+</body>
+</html>
